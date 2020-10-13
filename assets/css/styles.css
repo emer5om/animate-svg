@@ -1,0 +1,22 @@
+/* Copyright © by Emerson Araujo */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbe05a;
+}
+
+SVG:hover #vidro {
+  transform: translateY(-12px);
+  transition: 0.9s ease;
+}
